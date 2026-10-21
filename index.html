@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SenaiTech - Portal Educacional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho Fixo -->
+    <header class="navbar">
+        <div class="logo">SenaiTech</div>
+        <button class="btn-entrar" onclick="loginFicticio()">Entrar</button>
+    </header>
+
+    <div class="main-container">
+        <!-- Barra Lateral Fixa -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <div class="nav-group">
+                    <h3 class="group-title">1. Componentes Passivos Básicos</h3>
+                    <ul>
+                        <li><a href="#">1.1 - Resistores e a Lei de Ohm</a></li>
+                        <li><a href="#">1.2 - Capacitores e Armazenamento de Energia</a></li>
+                        <li><a href="#">1.3 - Indutores e Eletromagnetismo</a></li>
+                        <li><a href="#">1.4 - Associação de Componentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-group">
+                    <h3 class="group-title">2. Semicondutores e Componentes Ativos</h3>
+                    <ul>
+                        <li><a href="#">2.1 - Diodos e Retificação</a></li>
+                        <li><a href="#">2.2 - Transistores Bipolares de Junção (TBJ)</a></li>
+                        <li><a href="#">2.3 - Transistores de Efeito de Campo (MOSFETs)</a></li>
+                        <li><a href="#">2.4 - Circuitos Integrados (CIs)</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-group">
+                    <h3 class="group-title">3. Grandezas, Sinais e Circuitos Elétricos</h3>
+                    <ul>
+                        <li><a href="#">3.1 - Corrente Contínua (CC) vs. Corrente Alternada (CA)</a></li>
+                        <li><a href="#">3.2 - Leis de Kirchhoff</a></li>
+                        <li><a href="#">3.3 - Potência Elétrica e Efeito Joule</a></li>
+                        <li><a href="#">3.4 - Frequência e Sinais Elétricos</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-group">
+                    <h3 class="group-title">4. Aplicações Práticas dos Componentes</h3>
+                    <ul>
+                        <li><a href="#">4.1 - Circuitos de Filtros Passivos (RC e RL)</a></li>
+                        <li><a href="#">4.2 - Divisores de Tensão e Corrente</a></li>
+                        <li><a href="#">4.3 - Fontes de Alimentação Lineares</a></li>
+                        <li><a href="#">4.4 - Circuitos de Temporização (Constante de Tempo RC)</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-group">
+                    <h3 class="group-title">5. Proteção, Medição e Materiais</h3>
+                    <ul>
+                        <li><a href="#">5.1 - Dispositivos de Proteção Circuitos</a></li>
+                        <li><a href="#modulo-52" class="active">5.2 - Materiais Condutores, Isolantes e Semicondutores</a></li>
+                        <li><a href="#">5.3 - Uso do Multímetro no Diagnóstico de Componentes</a></li>
+                        <li><a href="#">5.4 - Relés e Chaves Eletromecânicas</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="content-area" id="modulo-52">
+            <div class="breadcrumb">Módulo 5 > Tópico 5.2</div>
+            <div class="authors-badge">Alunas: Nicole, Pyetra e Valentina | Turma: Albert Einstein</div>
+            
+            <h1>5.2 - Materiais Condutores, Isolantes e Semicondutores</h1>
+            <p class="subtitle">Aprenda sobre o comportamento dos elétrons, a estrutura atômica e as aplicações práticas desses materiais na eletrônica moderna.</p>
+
+            <hr class="divider">
+
+            <!-- 1. Introdução -->
+            <section class="card">
+                <h2>1. Introdução</h2>
+                <p>Os <strong>condutores</strong> (como o cobre) permitem a livre passagem da corrente elétrica para alimentar o sistema; os <strong>isolantes</strong> (como o plástico) bloqueiam essa corrente para evitar curto-circuitos e proteger os componentes; e os <strong>semicondutores</strong> (como o silício) conseguem alternar entre conduzir e isolar, funcionando como chaves ligadas/desligadas que formam a base dos transistores, processadores e chips de memória da computação.</p>
+            </section>
+
+            <!-- Cards Condutores, Isolantes e Semicondutores -->
+            <section class="card-grid">
+                <div class="card">
+                    <span class="badge badge-condutor">Condutores</span>
+                    <h3>2. Materiais Condutores</h3>
+                    <p><strong>Definição:</strong> Permitem a livre movimentação de cargas elétricas (elétrons) em seu interior quando submetidos a uma diferença de potencial (tensão elétrica). Isso ocorre porque seus átomos possuem elétrons fracamente ligados na camada de valência, formando uma "nuvem de elétrons livres".</p>
+                    <p><strong>Características:</strong> Baixa resistividade e abundância de elétrons livres.</p>
+                    <p><strong>Exemplos:</strong> Cobre (mais utilizado no mundo pela alta condutividade e flexibilidade) e Alumínio (leve e econômico).</p>
+                    <div class="note"><strong>Aplicações Práticas:</strong> Fiação elétrica residencial (tomadas e lâmpadas) e trilhas de cobre em placas de circuito impresso (PCI).</div>
+                </div>
+
+                <div class="card">
+                    <span class="badge badge-isolante">Isolantes</span>
+                    <h3>3. Materiais Isolantes</h3>
+                    <p><strong>Definição:</strong> Impedem a passagem da corrente elétrica porque seus elétrons estão fortemente presos aos átomos.</p>
+                    <p><strong>Características:</strong> Alta resistência elétrica, grande distância entre bandas de energia (bandgap) e alta rigidez dielétrica (suportam altas tensões sem conduzir).</p>
+                    <p><strong>Exemplos e Aplicações:</strong></p>
+                    <ul>
+                        <li><strong>Plástico/PVC:</strong> Revestimento de cabos elétricos.</li>
+                        <li><strong>Fibra de Vidro (FR4):</strong> Base das placas-mãe (PCB).</li>
+                        <li><strong>Dióxido de Silício (SiO₂):</strong> Isolante microscópico interno de processadores.</li>
+                        <li><strong>Cerâmica:</strong> Fabricação de capacitores SMD.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <span class="badge badge-semicondutor">Semicondutores</span>
+                    <h3>4. Materiais Semicondutores</h3>
+                    <p><strong>Definição:</strong> Possuem condutividade elétrica intermediária entre condutores e isolantes. Sua condução pode ser facilmente alterada e controlada por estímulos como luz, temperatura ou sinais elétricos.</p>
+                    <p><strong>Características:</strong> Banda de energia reduzida (pequeno gap) e permitem o processo de dopagem.</p>
+                    <p><strong>Exemplos:</strong> Silício (Si) - o mais abundante e utilizado em microchips; e Germânio (Ge) - usado em diodos de alta velocidade e sensores infravermelhos.</p>
+                    <div class="note"><strong>Aplicações Práticas:</strong> Transistores, microchips/CIs, painéis solares e iluminação LED.</div>
+                </div>
+            </section>
+
+            <!-- 5. Estrutura Atômica e Bandas de Energia -->
+            <section class="card">
+                <h2>5. Estrutura Atômica e Bandas de Energia</h2>
+                <p>A <strong>Teoria das Bandas de Energia</strong> explica como os elétrons se movimentam nos materiais a partir de três regiões principais:</p>
+                <ul>
+                    <li><strong>Banda de Valência (BV):</strong> Onde os elétrons ficam "presos" aos átomos.</li>
+                    <li><strong>Banda de Condução (BC):</strong> Onde os elétrons ficam livres para gerar corrente elétrica.</li>
+                    <li><strong>Bandgap (Gap de Energia):</strong> A "distância" de energia que o elétron precisa saltar da BV para a BC.</li>
+                </ul>
+                <div class="note">
+                    <strong>Diferença entre os Materiais:</strong><br>
+                    • <strong>Condutores:</strong> As bandas BV e BC estão sobrepostas (Gap zero). Os elétrons fluem livremente.<br>
+                    • <strong>Isolantes:</strong> O Gap é muito grande. Os elétrons não conseguem saltar para a BC, bloqueando a eletricidade.<br>
+                    • <strong>Semicondutores:</strong> O Gap é pequeno. Com um pouco de energia (calor, luz ou tensão), os elétrons saltam para a BC e passam a conduzir.
+                </div>
+            </section>
+
+            <!-- 6. Exemplos Práticos e Curiosidades -->
+            <section class="card">
+                <h2>6. Exemplos Práticos e Curiosidades</h2>
+                <p><strong>Processadores de Smartphones e Computadores:</strong> Bilhões de transistores de silício gravados microscopicamente em um único chip atuam como chaves liga/desliga para executar sistemas e jogos.</p>
+                <p><strong>Iluminação LED e Sensores:</strong> Telas de celular e sensores que ajustam o brilho automático funcionam através do controle de elétrons em junções semicondutoras.</p>
+                
+                <h3>Curiosidades Interessantes:</h3>
+                <ul>
+                    <li><strong>A Origem do "Vale do Silício":</strong> A famosa região de inovação na Califórnia recebeu esse nome nos anos 1970 por concentrar as principais fabricantes de chips e circuitos integrados feitos de silício.</li>
+                    <li><strong>Efeito Inverso da Temperatura:</strong> Ao contrário dos metais condutores (que conduzem pior ao esquentar), os semicondutores conduzem **melhor** a eletricidade quando a temperatura aumenta, pois o calor libera mais elétrons para se movimentarem.</li>
+                </ul>
+            </section>
+
+            <!-- 7. Atividades e Quiz Interativo -->
+            <section class="card">
+                <h2>7. Atividade de Revisão (Quiz Interativo)</h2>
+                <p>Selecione uma resposta em cada questão para conferir o resultado:</p>
+                
+                <!-- Questão 1 -->
+                <div class="quiz-item" data-correct="b">
+                    <p class="quiz-question"><strong>1. Qual destes materiais é um bom condutor de eletricidade?</strong></p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-option="a">a) Plástico</button>
+                        <button class="quiz-btn" data-option="b">b) Cobre</button>
+                        <button class="quiz-btn" data-option="c">c) Vidro</button>
+                        <button class="quiz-btn" data-option="d">d) Borracha</button>
+                    </div>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <!-- Questão 2 -->
+                <div class="quiz-item" data-correct="c">
+                    <p class="quiz-question"><strong>2. Qual é a principal função de um material isolante?</strong></p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-option="a">a) Produzir luz</button>
+                        <button class="quiz-btn" data-option="b">b) Aumentar a corrente elétrica</button>
+                        <button class="quiz-btn" data-option="c">c) Dificultar a passagem da corrente elétrica</button>
+                        <button class="quiz-btn" data-option="d">d) Armazenar informações</button>
+                    </div>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <!-- Questão 3 -->
+                <div class="quiz-item" data-correct="b">
+                    <p class="quiz-question"><strong>3. Qual material é muito utilizado na fabricação de chips eletrônicos?</strong></p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-option="a">a) Madeira</button>
+                        <button class="quiz-btn" data-option="b">b) Silício</button>
+                        <button class="quiz-btn" data-option="c">c) Papel</button>
+                        <button class="quiz-btn" data-option="d">d) Vidro comum</button>
+                    </div>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <!-- Questão 4 -->
+                <div class="quiz-item" data-correct="a">
+                    <p class="quiz-question"><strong>4. O que é a banda de condução?</strong></p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-option="a">a) Uma região de energia em que os elétrons podem se movimentar e contribuir para a condução elétrica</button>
+                        <button class="quiz-btn" data-option="b">b) Um tipo de fio elétrico</button>
+                        <button class="quiz-btn" data-option="c">c) Uma camada de plástico</button>
+                        <button class="quiz-btn" data-option="d">d) Um componente usado para proteger tomadas</button>
+                    </div>
+                    <div class="quiz-feedback"></div>
+                </div>
+
+                <!-- Questão 5 -->
+                <div class="quiz-item" data-correct="a">
+                    <p class="quiz-question"><strong>5. Qual destes dispositivos utiliza materiais semicondutores?</strong></p>
+                    <div class="quiz-options">
+                        <button class="quiz-btn" data-option="a">a) Transistor</button>
+                        <button class="quiz-btn" data-option="b">b) Caderno</button>
+                        <button class="quiz-btn" data-option="c">c) Régua de madeira</button>
+                        <button class="quiz-btn" data-option="d">d) Copo de vidro</button>
+                    </div>
+                    <div class="quiz-feedback"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Rodapé Fixo -->
+    <footer class="footer">
+        Portal Educacional - 2026
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
